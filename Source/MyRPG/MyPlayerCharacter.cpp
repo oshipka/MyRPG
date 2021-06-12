@@ -1,7 +1,8 @@
 // Fill out your copyright notice in the Description page of Project Settings.
-
+/*
 
 #include "MyPlayerCharacter.h"
+#include "Components/InputComponent.h"
 
 // Sets default values
 AMyPlayerCharacter::AMyPlayerCharacter()
@@ -29,6 +30,13 @@ void AMyPlayerCharacter::Tick(float DeltaTime)
 void AMyPlayerCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
-
+	// Set up gameplay key bindings
+	check(PlayerInputComponent);
 }
 
+AMyPlayerController* AMyPlayerCharacter::GetPlayerController()
+{
+	return nullptr;
+}
+
+*/
