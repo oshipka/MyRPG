@@ -3,3 +3,5 @@ Saved/
 .dll
 .pdb
 DerivedDataCache/
+*.db
+*.ipch
